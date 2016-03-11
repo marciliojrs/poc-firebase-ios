@@ -10,7 +10,7 @@ target :app, :exclusive => true do
   pod 'Swinject'
     
   pod 'Alamofire'
-  pod 'Genome'
+  pod 'Gloss'
   
   pod 'Nuke'
   
@@ -21,6 +21,11 @@ target :app, :exclusive => true do
   pod 'AsyncSwift'
 
   pod 'StatefulViewController'
+  
+  pod 'Firebase'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'FirebaseRxSwiftExtensions'
 end
 
 

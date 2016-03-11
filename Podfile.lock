@@ -2,8 +2,12 @@ PODS:
   - Alamofire (3.2.1)
   - AsyncSwift (1.7.2)
   - Expecta (1.0.5)
-  - Genome (2.0.4):
-    - PureJsonSerializer (~> 1.0.0)
+  - Firebase (2.5.1)
+  - FirebaseRxSwiftExtensions (2.0.9):
+    - Firebase (~> 2.5.1)
+    - FirebaseOSX (~> 2.5.1)
+    - RxSwift (~> 2.2)
+  - Gloss (0.7.1)
   - Nuke (2.1.0)
   - OCMock (3.2.2)
   - OHHTTPStubs (4.7.1):
@@ -19,7 +23,9 @@ PODS:
   - OHHTTPStubs/NSURLSession (4.7.1):
     - OHHTTPStubs/Core
   - OHHTTPStubs/OHPathHelpers (4.7.1)
-  - PureJsonSerializer (1.0.2)
+  - RxCocoa (2.2.0):
+    - RxSwift (~> 2.2)
+  - RxSwift (2.2.0)
   - SnapKit (0.19.1)
   - Specta (1.0.5)
   - SpringIndicator (1.2.1)
@@ -32,10 +38,14 @@ DEPENDENCIES:
   - Alamofire
   - AsyncSwift
   - Expecta
-  - Genome
+  - Firebase
+  - FirebaseRxSwiftExtensions
+  - Gloss
   - Nuke
   - OCMock
   - OHHTTPStubs
+  - RxCocoa
+  - RxSwift
   - SnapKit
   - Specta
   - SpringIndicator
@@ -48,11 +58,14 @@ SPEC CHECKSUMS:
   Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
   AsyncSwift: 46a78bceb11f0e5bb52747f740d9692ec78d2d7c
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  Genome: ee22f71d87eefac0f622f77e75d1fef7f7fa12e7
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  FirebaseRxSwiftExtensions: 9daee9e12cd2885c27547b2d5afe985ee193ac32
+  Gloss: e674d7aa06a7e292a591d0d39a759b826daf503e
   Nuke: 30456df0bc128e52a683869bdf336daf3081ad69
   OCMock: 18c9b7e67d4c2770e95bb77a9cc1ae0c91fe3835
   OHHTTPStubs: f7d1604d04d37d055460c0ef9af01bb249ded0fa
-  PureJsonSerializer: 81d6bc0e21ed4b837193279aa3d29981f75f9057
+  RxCocoa: 42efb7a7145a8d1d5878e94ce48a580d29e0c796
+  RxSwift: b8a749f2204c6c7a5c29b306a9c3bc11d5b87c5b
   SnapKit: eff58d6e3451bf2f482db2eccf86aecf371dc62d
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
   SpringIndicator: 2e66169e2595c00cc3ab34329d6bdbeab90680f0
